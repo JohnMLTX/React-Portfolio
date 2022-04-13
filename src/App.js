@@ -1,9 +1,15 @@
 
+import React from "react";
+
 import { IconButton } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Flex, VStack, Heading, Spacer } from "@chakra-ui/layout";
 import { FaSun, FaMoon } from "react-icons/fa";
-   
+
+//TODO: Get App to read imported ContactMe component and return it.
+// import {ContactMe} from "./components/Contact/index"
+// import reactDom from "react-dom";
+
 function App() {
    
   const { colorMode, toggleColorMode } = useColorMode(); 
@@ -18,6 +24,8 @@ function App() {
        isRound="true" onClick={toggleColorMode}></IconButton>
       </Flex>
     </VStack>
+    // <div><ContactMe/></div>
+    
   );
 }
    
