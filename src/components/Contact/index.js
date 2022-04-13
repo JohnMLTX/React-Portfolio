@@ -32,7 +32,7 @@ import { MdEmail, MdOutlineEmail } from 'react-icons/md';
 
 
 
-const ContactMe = () => {
+const Contact = () => {
   const form = useRef();
   const { hasCopied, onCopy } = useClipboard('brendan.ahearn@gmail.com');
   const sendEmail = (e) => {
@@ -215,4 +215,4 @@ return (
   );
 };
 
-module.exports = ContactMe;
+export default Contact;
