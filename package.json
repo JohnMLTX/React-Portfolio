@@ -42,6 +42,15 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "author": "",
-  "license": "ISC"
+  "author": "Brendan Ahearn",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcanaut/React-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arcanaut/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Arcanaut/React-Portfolio#readme"
 }
